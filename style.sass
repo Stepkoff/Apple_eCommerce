@@ -220,7 +220,7 @@ html
   transform-style: preserve-3d
   -webkit-transform-style: preserve-3d
   box-shadow: inset .1rem .1rem .1rem #ddd, inset -.1rem -.1rem .1rem #ddd
-  .test
+  .cube__back-1
     content: 'iPhone'
     width: 10rem
     height: 100%
@@ -230,6 +230,26 @@ html
     left: 0
     transform: rotateY(-90deg)
     transform-origin: left
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 2rem
+    font-weight: 300
+    color: #ec1919
+    box-shadow: inset .1rem .1rem .1rem #ddd, inset -.1rem -.1rem .1rem #ddd
+  .cube__back-2
+    content: 'iPhone'
+    width: 10rem
+    height: 100%
+    background-color: #fee
+    position: absolute
+    top: 0
+    right: 0
+    transform: rotateY(90deg)
+    -webkit-transform: rotateY(90deg)
+    -ms-transform: rotateY(90deg)
+    transform-origin: right
+    -webkit-transform-origin: right
     display: flex
     justify-content: center
     align-items: center
@@ -254,26 +274,26 @@ html
   //  font-weight: 300
   //  color: #ec1919
   //  box-shadow: inset .1rem .1rem .1rem #ddd, inset -.1rem -.1rem .1rem #ddd
-  &:after
-    content: 'iPhone'
-    width: 10rem
-    height: 100%
-    background-color: #fee
-    position: absolute
-    top: 0
-    right: 0
-    transform: rotateY(90deg)
-    -webkit-transform: rotateY(90deg)
-    -ms-transform: rotateY(90deg)
-    transform-origin: right
-    -webkit-transform-origin: right
-    display: flex
-    justify-content: center
-    align-items: center
-    font-size: 2rem
-    font-weight: 300
-    color: #ec1919
-    box-shadow: inset .1rem .1rem .1rem #ddd, inset -.1rem -.1rem .1rem #ddd
+  //&:after
+  //  content: 'iPhone'
+  //  width: 10rem
+  //  height: 100%
+  //  background-color: #fee
+  //  position: absolute
+  //  top: 0
+  //  right: 0
+  //  transform: rotateY(90deg)
+  //  -webkit-transform: rotateY(90deg)
+  //  -ms-transform: rotateY(90deg)
+  //  transform-origin: right
+  //  -webkit-transform-origin: right
+  //  display: flex
+  //  justify-content: center
+  //  align-items: center
+  //  font-size: 2rem
+  //  font-weight: 300
+  //  color: #ec1919
+  //  box-shadow: inset .1rem .1rem .1rem #ddd, inset -.1rem -.1rem .1rem #ddd
   i
     font-size: 12rem
     color: $primary
