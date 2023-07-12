@@ -12,7 +12,7 @@ const slideShowCreateDivs = () => {
   const heroSliderContainer = document.querySelector('.hero__slide-show');
   for(let i = 1; i <= 5; i++) {
     const div = document.createElement('div')
-    div.style.background = `url(./images/slideshow/section-1-bg-${i}.jpg) 0 0/cover no-repeat`
+    div.style.background = `url(images/slideshow/section-1-bg-${i}.jpg) 0 0/cover no-repeat`
     if(i === 1) {
       div.classList.add('hero__slide--active')
     }
